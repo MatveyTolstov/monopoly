@@ -18,7 +18,7 @@ const (
 type Estate struct {
 	Name        string
 	Cost        int    // цена покупки
-	Rents       [6]int // рента домов 0, 1-4 дома, отель
+	Rents       [5]int // рента домов 0, 1-3 дома, отель
 	Group       GroupColor // цвет клеток для монополии
 	HousePrice  int
 	Owner       string // пока хз буду передовать имя игрока

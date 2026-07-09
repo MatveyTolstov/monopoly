@@ -16,6 +16,7 @@ const (
 	SpaceGoToJail                      // отправляет игрока в тюрьму
 	SpaceFreeParking                   // бесплатная парковка, ничего не происходит
 	SpaceRailroad                      // железнодорожная станция
+	Shop24														 // магазин 24
 )
 
 var spaceTypeMap = map[string]SpaceType{
