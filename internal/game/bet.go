@@ -2,12 +2,8 @@ package game
 
 type BetType int
 
-const (
-	
-)
+const ()
 
-
-type Bet struct{
+type Bet struct {
 	Сoeff float32
-	
 }
