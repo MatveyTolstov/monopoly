@@ -11,15 +11,17 @@ const (
 	CardGoToJail    CardType = "go_to_jail"
 	CardMoveSteps   CardType = "move_steps"
 	CardMoveTo      CardType = "move_to"
+	CardStealEstate CardType = "steal_estate"
 )
 
 // CardParams — параметры конкретной карты.
 // Поля не нужные для данного типа просто остаются нулевыми
 // и не сериализуются в JSON благодаря omitempty.
 type CardParams struct {
-	Amount int `json:"amount,omitempty"`
-	Steps  int `json:"steps,omitempty"`
-	Pos    int `json:"pos,omitempty"`
+	Amount      int    `json:"amount,omitempty"`
+	Steps       int    `json:"steps,omitempty"`
+	Pos         int    `json:"pos,omitempty"`
+	StealEstate string `json:"stealEstate,omitempty"`
 }
 
 // Card — то, что хранится в колоде и уходит клиенту как данные.
@@ -83,6 +85,11 @@ var effects = map[CardType]Effect{
 			Pos:      p.Position,
 			PassedGo: passedGo,
 		}, nil
+	},
+
+	// Требует доступа к другим игрокам — обрабатывается на уровне Game, не здесь.
+	CardStealEstate: func(p *Player, params CardParams) (*ActionResult, error) {
+		return nil, fmt.Errorf("steal_estate должен обрабатываться на уровне Game")
 	},
 }
 

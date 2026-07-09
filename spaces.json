@@ -1,98 +1,98 @@
 [
   { "name": "СТАРТ", "type": "Go" },
   { "name": "ул. Свердлова", "type": "Property", "estate": {
-      "cost": 60, "rents": [2, 10, 30, 90, 160, 250], "group": "Brown", "house_price": 50
+      "cost": 60, "rents": [2, 10, 30, 90, 160], "group": "Brown", "house_price": 50
   }},
   { "name": "ул. Первомайская", "type": "Property", "estate": {
-      "cost": 60, "rents": [2, 10, 30, 90, 160, 250], "group": "Brown", "house_price": 50
+      "cost": 60, "rents": [2, 10, 30, 90, 160], "group": "Brown", "house_price": 50
   }},
   { "name": "ул. Орджоникидзе", "type": "Property", "estate": {
-      "cost": 60, "rents": [4, 20, 60, 180, 320, 450], "group": "Brown", "house_price": 50
+      "cost": 60, "rents": [4, 20, 60, 180, 320], "group": "Brown", "house_price": 50
   }},
   { "name": "Налог на доход", "type": "Chance" },
   { "name": "ст. Балашиха", "type": "Railroad", "estate": {
-      "cost": 200, "rents": [25, 50, 100, 200, 0, 0], "group": "Railroad", "house_price": 0
+      "cost": 200, "rents": [25, 50, 100, 200, 0], "group": "Railroad", "house_price": 0
   }},
   { "name": "ул. Советская", "type": "Property", "estate": {
-      "cost": 100, "rents": [6, 30, 90, 270, 400, 550], "group": "Blue", "house_price": 50
+      "cost": 100, "rents": [6, 30, 90, 270, 400], "group": "Blue", "house_price": 50
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "ул. Калинина", "type": "Property", "estate": {
-      "cost": 100, "rents": [6, 30, 90, 270, 400, 550], "group": "Blue", "house_price": 50
+      "cost": 100, "rents": [6, 30, 90, 270, 400], "group": "Blue", "house_price": 50
   }},
   { "name": "шоссе Энтузиастов", "type": "Property", "estate": {
-      "cost": 120, "rents": [8, 40, 100, 300, 450, 600], "group": "Blue", "house_price": 50
+      "cost": 120, "rents": [8, 40, 100, 300, 450], "group": "Blue", "house_price": 50
   }},
   { "name": "Визит в тюрьму", "type": "JustVisiting" },
   { "name": "ул. Дзержинского", "type": "Property", "estate": {
-      "cost": 140, "rents": [10, 50, 150, 450, 625, 750], "group": "Pink", "house_price": 100
+      "cost": 140, "rents": [10, 50, 150, 450, 625], "group": "Pink", "house_price": 100
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "пр-т Ленина", "type": "Property", "estate": {
-      "cost": 140, "rents": [10, 50, 150, 450, 625, 750], "group": "Pink", "house_price": 100
+      "cost": 140, "rents": [10, 50, 150, 450, 625], "group": "Pink", "house_price": 100
   }},
   { "name": "ул. Революционная", "type": "Property", "estate": {
-      "cost": 160, "rents": [12, 60, 180, 500, 700, 900], "group": "Pink", "house_price": 100
+      "cost": 160, "rents": [12, 60, 180, 500, 700], "group": "Pink", "house_price": 100
   }},
   { "name": "ст. Салтыковка", "type": "Railroad", "estate": {
-      "cost": 200, "rents": [25, 50, 100, 200, 0, 0], "group": "Railroad", "house_price": 0
+      "cost": 200, "rents": [25, 50, 100, 200, 0], "group": "Railroad", "house_price": 0
   }},
   { "name": "ул. Горького", "type": "Property", "estate": {
-      "cost": 180, "rents": [14, 70, 200, 550, 750, 950], "group": "Orange", "house_price": 100
+      "cost": 180, "rents": [14, 70, 200, 550, 750], "group": "Orange", "house_price": 100
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "ул. Парковая", "type": "Property", "estate": {
-      "cost": 180, "rents": [14, 70, 200, 550, 750, 950], "group": "Orange", "house_price": 100
+      "cost": 180, "rents": [14, 70, 200, 550, 750], "group": "Orange", "house_price": 100
   }},
   { "name": "ул. Садовая", "type": "Property", "estate": {
-      "cost": 200, "rents": [16, 80, 220, 600, 800, 1000], "group": "Orange", "house_price": 100
+      "cost": 200, "rents": [16, 80, 220, 600, 800], "group": "Orange", "house_price": 100
   }},
   { "name": "Бесплатная парковка", "type": "FreeParking" },
   { "name": "Шоссейная ул.", "type": "Property", "estate": {
-      "cost": 220, "rents": [18, 90, 250, 700, 875, 1050], "group": "Red", "house_price": 150
+      "cost": 220, "rents": [18, 90, 250, 700, 875], "group": "Red", "house_price": 150
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "ул. Октябрьская", "type": "Property", "estate": {
-      "cost": 220, "rents": [18, 90, 250, 700, 875, 1050], "group": "Red", "house_price": 150
+      "cost": 220, "rents": [18, 90, 250, 700, 875], "group": "Red", "house_price": 150
   }},
   { "name": "ул. Пролетарская", "type": "Property", "estate": {
-      "cost": 240, "rents": [20, 100, 300, 750, 925, 1100], "group": "Red", "house_price": 150
+      "cost": 240, "rents": [20, 100, 300, 750, 925], "group": "Red", "house_price": 150
   }},
   { "name": "ст. Никольское", "type": "Railroad", "estate": {
-      "cost": 200, "rents": [25, 50, 100, 200, 0, 0], "group": "Railroad", "house_price": 0
+      "cost": 200, "rents": [25, 50, 100, 200, 0], "group": "Railroad", "house_price": 0
   }},
   { "name": "ул. Новая", "type": "Property", "estate": {
-      "cost": 260, "rents": [22, 110, 330, 800, 975, 1150], "group": "Yellow", "house_price": 150
+      "cost": 260, "rents": [22, 110, 330, 800, 975], "group": "Yellow", "house_price": 150
   }},
   { "name": "ул. Центральная", "type": "Property", "estate": {
-      "cost": 260, "rents": [22, 110, 330, 800, 975, 1150], "group": "Yellow", "house_price": 150
+      "cost": 260, "rents": [22, 110, 330, 800, 975], "group": "Yellow", "house_price": 150
   }},
   { "name": "ул. Спортивная", "type": "Property", "estate": {
-      "cost": 260, "rents": [22, 110, 330, 800, 975, 1150], "group": "Yellow", "house_price": 150
+      "cost": 260, "rents": [22, 110, 330, 800, 975], "group": "Yellow", "house_price": 150
   }},
   { "name": "ул. Молодёжная", "type": "Property", "estate": {
-      "cost": 280, "rents": [24, 120, 360, 850, 1025, 1200], "group": "Yellow", "house_price": 150
+      "cost": 280, "rents": [24, 120, 360, 850, 1025], "group": "Yellow", "house_price": 150
   }},
   { "name": "Тюрьма", "type": "GoToJail" },
   { "name": "ул. Речная", "type": "Property", "estate": {
-      "cost": 300, "rents": [26, 130, 390, 900, 1100, 1275], "group": "Green", "house_price": 200
+      "cost": 300, "rents": [26, 130, 390, 900, 1100], "group": "Green", "house_price": 200
   }},
   { "name": "ул. Лесная", "type": "Property", "estate": {
-      "cost": 300, "rents": [26, 130, 390, 900, 1100, 1275], "group": "Green", "house_price": 200
+      "cost": 300, "rents": [26, 130, 390, 900, 1100], "group": "Green", "house_price": 200
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "ул. Строителей", "type": "Property", "estate": {
-      "cost": 320, "rents": [28, 150, 450, 1000, 1200, 1400], "group": "Green", "house_price": 200
+      "cost": 320, "rents": [28, 150, 450, 1000, 1200], "group": "Green", "house_price": 200
   }},
   { "name": "ст. Железнодорожная", "type": "Railroad", "estate": {
-      "cost": 200, "rents": [25, 50, 100, 200, 0, 0], "group": "Railroad", "house_price": 0
+      "cost": 200, "rents": [25, 50, 100, 200, 0], "group": "Railroad", "house_price": 0
   }},
   { "name": "Шанс", "type": "Chance" },
   { "name": "пр-т Героев", "type": "Property", "estate": {
-      "cost": 350, "rents": [35, 175, 500, 1100, 1300, 1500], "group": "DarkBlue", "house_price": 200
+      "cost": 350, "rents": [35, 175, 500, 1100, 1300], "group": "DarkBlue", "house_price": 200
   }},
   { "name": "Налог на роскошь", "type": "Chance" },
   { "name": "ул. Победы", "type": "Property", "estate": {
-      "cost": 400, "rents": [50, 200, 600, 1400, 1700, 2000], "group": "DarkBlue", "house_price": 200
+      "cost": 400, "rents": [50, 200, 600, 1400, 1700], "group": "DarkBlue", "house_price": 200
   }}
 ]

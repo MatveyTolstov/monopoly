@@ -43,7 +43,13 @@ func (p *Player) SellEstate(estate *Estate) error {
 		return errors.New("этой недвижимости нет у игрока")
 	}
 
+	if !estate.IsMortgaged {
+		p.Money += estate.Cost / 2
+	}
+
 	estate.Owner = ""
+	estate.IsMortgaged = false
+	estate.Houses = 0
 	p.Actives = append(p.Actives[:i], p.Actives[i+1:]...)
 	return nil
 }
@@ -67,8 +73,9 @@ func (p *Player) Mortgage(estate *Estate) error {
 }
 
 func (p *Player) Move(steps int) bool {
-	passedGo := p.Position+steps >= 40
-	p.Position = (p.Position + steps) % 40
+	newPos := p.Position + steps
+	passedGo := newPos >= 40
+	p.Position = ((newPos % 40) + 40) % 40
 	return passedGo
 }
 

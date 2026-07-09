@@ -16,7 +16,7 @@ const (
 	SpaceGoToJail                      // отправляет игрока в тюрьму
 	SpaceFreeParking                   // бесплатная парковка, ничего не происходит
 	SpaceRailroad                      // железнодорожная станция
-	Shop24														 // магазин 24
+	Shop24                             // магазин 24
 )
 
 var spaceTypeMap = map[string]SpaceType{
@@ -27,6 +27,7 @@ var spaceTypeMap = map[string]SpaceType{
 	"GoToJail":     SpaceGoToJail,
 	"FreeParking":  SpaceFreeParking,
 	"Railroad":     SpaceRailroad,
+	"Shop24":       Shop24,
 }
 
 var groupColorMap = map[string]GroupColor{
@@ -44,7 +45,7 @@ var groupColorMap = map[string]GroupColor{
 
 type estateJSON struct {
 	Cost       int    `json:"cost"`
-	Rents      [6]int `json:"rents"`
+	Rents      [5]int `json:"rents"`
 	Group      string `json:"group"`
 	HousePrice int    `json:"house_price"`
 }
@@ -65,8 +66,8 @@ type Board struct {
 	Spaces [40]Space
 }
 
-func NewBoard() (*Board, error) {
-	data, err := os.ReadFile("/home/matyu/Work/monopoly/spaces.json")
+func NewBoard(spacesPath string) (*Board, error) {
+	data, err := os.ReadFile(spacesPath)
 	if err != nil {
 		return nil, fmt.Errorf("не могу прочитать файл: %w", err)
 	}

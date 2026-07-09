@@ -17,8 +17,8 @@ const (
 
 type Estate struct {
 	Name        string
-	Cost        int    // цена покупки
-	Rents       [5]int // рента домов 0, 1-3 дома, отель
+	Cost        int        // цена покупки
+	Rents       [5]int     // рента: 0 домов, 1-3 дома, отель
 	Group       GroupColor // цвет клеток для монополии
 	HousePrice  int
 	Owner       string // пока хз буду передовать имя игрока
@@ -26,7 +26,7 @@ type Estate struct {
 	IsMortgaged bool
 }
 
-func NewEstate(name string, cost int, rents [6]int, group GroupColor, housePrice int) *Estate {
+func NewEstate(name string, cost int, rents [5]int, group GroupColor, housePrice int) *Estate {
 	return &Estate{
 		Name:       name,
 		Cost:       cost,
